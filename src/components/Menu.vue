@@ -39,15 +39,16 @@
     justify-content: center;
     height: 50px;
     max-width: 600px;
+    
   }
 
   #nav-container {
-    padding: 10px;
+    padding: 20px;
     position:absolute;
-    top: 8rem;
     width:100vw;
     display: flex;
     justify-content: center;
+    background-color: rgba(255, 255, 255, 0.966);
   }
 
   a {

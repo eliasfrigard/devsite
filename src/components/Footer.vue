@@ -18,9 +18,9 @@
           <h4 class="ui inverted header">Services</h4>
           <div class="ui hidden divider"></div>
           <div class="ui inverted link list">
-            <a href="#" class="item">Project Proposal</a>
-            <a href="#" class="item">Visit Repository</a>
-            <a href="#" class="item">Download CV</a>
+            <a href="#contact-container" class="item">Project Proposal</a>
+            <a href="https://github.com/eliasfrigard/devsite" target="_blank" class="item">Visit Repository</a>
+            <a href="#" class="item">Download Resumé</a>
             <a href="#" class="item">Download Diploma</a>
 
           </div>

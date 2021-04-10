@@ -3,7 +3,7 @@
     <transition name="fade">
       <div id="content" v-if="hover">
         <h3>{{title}}</h3>
-        <p>Some description of how this project came to be and what it actually is.</p>
+        <p>{{description}}</p>
 
         <div class="ui buttons">
           <button class="ui inverted green button">Visit Repo</button>
@@ -12,8 +12,8 @@
         </div>
       </div>
     </transition>
-
-    <img src="../assets/project1.jpg" alt="image" id="projectimg">
+    
+    <img v-bind:src="require('@/assets/images/' + src)" alt="image" id="projectimg">
   </div>
 </template>
 
@@ -23,6 +23,7 @@ export default {
   name: 'Project',
   props: {
     title: String,
+    description: String,
     src: String,
   },
   data() {

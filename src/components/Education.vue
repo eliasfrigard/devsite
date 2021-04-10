@@ -13,7 +13,7 @@
       
       <br>
 
-      <a href="curriculum.pdf"><button class="ui secondary basic button">Download Official Curriculum</button></a>
+      <a href="curriculum.pdf"><button class="ui secondary large basic button">Download Official Curriculum</button></a>
 
     </div><br><br>
 

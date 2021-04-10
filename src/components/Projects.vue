@@ -12,12 +12,11 @@
     <p>Here are some of my recent projects. Want to know more? <a href="mailto:elias_frigard@hotmail.com">Send me an e-mail.</a></p>
 
     <div class="project-container">
-        <Project class="project-item" title="This title" src="../assets/project1.jpg" />
-        <Project class="project-item" title="This title" />
-        <Project class="project-item" title="This title" />
+        <Project class="project-item" title="Web Desktop" description="Desktop emulation in the browser with movable windows, apps and real-time communication." src="desktop-logo.jpg" />
+        <Project class="project-item" title="Timewaves" description="JavaFX & Maven Application for creating and vizualising timelines." src="timewaves-background.png" />
+        <Project class="project-item" title="Gitlab Webhooks" description="Utilizing Webhooks and Web Sockets to interact with GitLab Repositories in real time." src="gitlab-logo.webp" />
     </div>
     <div class="project-container">
-        <Project class="project-item" title="This title" src="../assets/project1.jpg" />
         <Project class="project-item" title="This title" />
         <Project class="project-item" title="This title" />
     </div>
@@ -25,11 +24,11 @@
 
     <div class="ui hidden divider"></div>
 
-    <button class="huge ui basic blue button" @mouseover="hover = true" @mouseleave="hover = false" v-if="!hover">
+    <button class="huge ui large basic blue button" @mouseover="hover = true" @mouseleave="hover = false" v-if="!hover">
       See More On Github!
     </button>
 
-    <button class="huge ui blue button" @mouseover="hover = true" @mouseleave="hover = false" v-if="hover">
+    <button class="huge ui large blue button" @click="sendToGithub"  @mouseover="hover = true" @mouseleave="hover = false" v-if="hover">
       See More On Github!
     </button>
   </div>
@@ -43,6 +42,11 @@ export default {
   data() {
     return {
       hover: false,
+    }
+  },
+  methods: {
+    sendToGithub() {
+      window.location.href = "https://github.com/eliasfrigard"
     }
   },
   components: {

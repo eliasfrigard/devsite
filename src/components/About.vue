@@ -5,7 +5,7 @@
       <h1>{{name}}</h1><br>
       <p>{{description}}</p>
       <br>
-      <a href="curriculum.pdf"><button class="ui basic yellow button">Download Curriculum Vitae</button></a>
+      <a href="curriculum.pdf"><button class="ui basic large yellow button">Download Curriculum Vitae</button></a>
     </div>
   </div>
 </template>

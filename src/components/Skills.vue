@@ -6,10 +6,10 @@
       <br>
       <p>HTML / CSS</p>
       <p>Javascript</p>
-      <p>Semantic UI</p>
       <p>React.js</p>
       <p>Vue.js</p>
-      <p>Static Site Generators</p>
+      <p>Progressive Web Apps</p>
+      <p>Semantic UI / SASS</p>
       <p>...</p>
     </div>
     <div class="skill-card">
@@ -19,8 +19,8 @@
       <p>Java</p>
       <p>Node.js</p>
       <p>Express</p>
-      <p>SQL / NoSQL</p>
       <p>MongoDB / MySQL</p>
+      <p>Web Sockets / Webhooks</p>
       <p>Server Side Rendering</p>
       <p>...</p>
     </div>
@@ -28,11 +28,11 @@
       <img class="skill-icon" src="../assets/servers.png"/>
       <h1>System Administration</h1>
       <br>
-      <p>Linux</p>
-      <p>Docker</p>
-      <p>Kubernetes</p>
+      <p>Linux Administration</p>
+      <p>Docker Containers</p>
+      <p>Kubernetes Clusters</p>
       <p>AWS / Digital Ocean</p>
-      <p>CI / CD</p>
+      <p>Continuous Deployment</p>
       <p>...</p>
     </div>
   </div>
