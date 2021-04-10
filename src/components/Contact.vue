@@ -111,4 +111,10 @@
   #sub-text {
     color: white;
   }
+
+  @media only screen and (max-width: 600px) {
+    #contact {
+      width: 100%
+    }
+  }
 </style>

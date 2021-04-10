@@ -47,7 +47,7 @@
         <img class="tool-icon" id="mysql" src="../assets/images/tools/mysql.png" alt="" srcset="">
       </div>
 
-      <div data-tooltip="NodeJS Javascript Backend Runtime Environment" data-position="bottom center">
+      <div data-tooltip="NodeJS Back-End Runtime Environment" data-position="bottom center">
         <img class="tool-icon" id="nodejs" src="../assets/images/tools/nodejs.png" alt="" srcset="">
       </div>
 
@@ -163,4 +163,16 @@
     margin: 20px;
     cursor: pointer;
   }
+
+    @media only screen and (max-width: 600px) {
+      .tool-icon {
+        max-height: 40px;
+        max-width: 40px;
+        margin: 20px;
+      }
+
+      .break {
+        display: none;
+      }
+    }
 </style>

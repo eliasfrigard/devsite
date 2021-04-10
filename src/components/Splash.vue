@@ -4,7 +4,6 @@
       <h1>{{name}}</h1>
     </transition>
       <hr>
-      <br>
       <h2>{{quote}}</h2>
       <img src="../assets/cslogo2.png" alt="cs" id="csimage">
   </div>
@@ -74,5 +73,11 @@ export default {
 
   .view-enter-to, .view-leave {
     opacity: 1;
+  }
+
+  @media only screen and (max-width: 600px) {
+    hr {
+      display: none;
+    }
   }
 </style>
