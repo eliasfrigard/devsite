@@ -5,66 +5,66 @@
 
     <div id="tools-container" @click.prevent="handleToolClick">
       <div data-tooltip="Github Version Control & Project Management">
-        <img class="tool-icon" id="github" src="../assets/images/tools/github.png" alt="" srcset="" >
+        <img class="tool-icon" id="github" src="../assets/images/tools/github.png" alt="">
       </div>
       
       <div data-tooltip="Gitlab Version Control & Project Management">
-        <img class="tool-icon" id="gitlab" src="../assets/images/tools/gitlab.png" alt="" srcset="">
+        <img class="tool-icon" id="gitlab" src="../assets/images/tools/gitlab.png" alt="">
       </div>
 
       <div data-tooltip="Digital Ocean Cloud Services">
-        <img class="tool-icon" id="digitalocean" src="../assets/images/tools/digitalocean.svg" alt="" srcset="">
+        <img class="tool-icon" id="digitalocean" src="../assets/images/tools/digitalocean.svg" alt="">
       </div>
       
       <div data-tooltip="Amazon Web Services">
-        <img class="tool-icon" id="aws" src="../assets/images/tools/aws.png" alt="" srcset="">
+        <img class="tool-icon" id="aws" src="../assets/images/tools/aws.png" alt="">
       </div>
       
       <div data-tooltip="Figma - Collaborative Interface Design">
-        <img class="tool-icon" id="figma" src="../assets/images/tools/figma.svg" alt="" srcset="">
+        <img class="tool-icon" id="figma" src="../assets/images/tools/figma.svg" alt="">
       </div>
 
       <div data-tooltip="Lucidchart - Visual Software Design">
-        <img class="tool-icon" id="lucidchart" src="../assets/images/tools/lucidchart.png" alt="" srcset="">
+        <img class="tool-icon" id="lucidchart" src="../assets/images/tools/lucidchart.png" alt="">
       </div>
 
       <div data-tooltip="React Javascript Framework">
-        <img class="tool-icon" id="react" src="../assets/images/tools/react.svg" alt="" srcset="">
+        <img class="tool-icon" id="react" src="../assets/images/tools/react.svg" alt="">
       </div>
 
       <div data-tooltip="Vue Javascript Framework">
-        <img class="tool-icon" id="vue" src="../assets/images/tools/vue.png" alt="" srcset="">
+        <img class="tool-icon" id="vue" src="../assets/images/tools/vue.png" alt="">
       </div>
 
       <!-- break -->
       <div class="break"></div> 
 
       <div data-tooltip="MongoDB NoSQL Database" data-position="bottom center">
-        <img class="tool-icon" id="mongo" src="../assets/images/tools/mongo.png" alt="" srcset="">
+        <img class="tool-icon" id="mongo" src="../assets/images/tools/mongo.png" alt="">
       </div>
 
       <div data-tooltip="MySQL Relational Database" data-position="bottom center">
-        <img class="tool-icon" id="mysql" src="../assets/images/tools/mysql.png" alt="" srcset="">
+        <img class="tool-icon" id="mysql" src="../assets/images/tools/mysql.png" alt="">
       </div>
 
       <div data-tooltip="NodeJS Back-End Runtime Environment" data-position="bottom center">
-        <img class="tool-icon" id="nodejs" src="../assets/images/tools/nodejs.png" alt="" srcset="">
+        <img class="tool-icon" id="nodejs" src="../assets/images/tools/nodejs.png" alt="">
       </div>
 
       <div data-tooltip="SASS - CSS Preprocessor" data-position="bottom center">
-        <img class="tool-icon" id="sass" src="../assets/images/tools/sass.png" alt="" srcset="">
+        <img class="tool-icon" id="sass" src="../assets/images/tools/sass.png" alt="">
       </div>
 
       <div data-tooltip="Semantic UI Front-End Framework" data-position="bottom center">
-        <img class="tool-icon" id="semantic" src="../assets/images/tools/semantic.png" alt="" srcset="">
+        <img class="tool-icon" id="semantic" src="../assets/images/tools/semantic.png" alt="">
       </div>
 
       <div data-tooltip="Visual Studio Code Editor" data-position="bottom center">
-        <img class="tool-icon" id="vscode" src="../assets/images/tools/vscode.png" alt="" srcset="">
+        <img class="tool-icon" id="vscode" src="../assets/images/tools/vscode.png" alt="">
       </div>
 
       <div data-tooltip="IntelliJ - Integrated Development Environment for Java" data-position="bottom center">
-        <img class="tool-icon" id="intellij" src="../assets/images/tools/intellij.png" alt="" srcset="">
+        <img class="tool-icon" id="intellij" src="../assets/images/tools/intellij.png" alt="">
       </div>
 
     </div>
