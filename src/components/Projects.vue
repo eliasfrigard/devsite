@@ -13,10 +13,11 @@
 
     <div class="project-container">
         <Project class="project-item" title="Web Desktop" description="Desktop emulation in the browser with movable windows, apps and real-time communication." src="desktop-logo.jpg" />
-        <Project class="project-item" title="Timewaves" description="JavaFX & Maven Application for creating and vizualising timelines." src="timewaves-background.png" />
+        <Project class="project-item" title="Timewaves" description="JavaFX & Maven Application for creating and vizualising project and event timelines." src="timewaves-background.png" />
         <Project class="project-item" title="Gitlab Webhooks" description="Utilizing Webhooks and Web Sockets to interact with GitLab Repositories in real time." src="gitlab-logo.webp" />
     </div>
     <div class="project-container">
+        <Project class="project-item" title="Softwork" description="Application that gathers software development jobs from a wide variety of popular job sites." src="softworks-logo.svg" />
         <Project class="project-item" title="This title" />
         <Project class="project-item" title="This title" />
     </div>

@@ -1,149 +1,35 @@
-/* HTML Template */
 <template>
   <div class="ui container" id="tools">
+    <!-- Section descriptor. -->
     <p>These are some of the tools that I use regularly. I enjoy learning new technologies and using the best tools available.</p>
 
-    <div id="tools-container" @click.prevent="handleToolClick">
-      <div data-tooltip="Github Version Control & Project Management">
-        <img class="tool-icon" id="github" src="../assets/images/tools/github.png" alt="">
-      </div>
-      
-      <div data-tooltip="Gitlab Version Control & Project Management">
-        <img class="tool-icon" id="gitlab" src="../assets/images/tools/gitlab.png" alt="">
-      </div>
-
-      <div data-tooltip="Digital Ocean Cloud Services">
-        <img class="tool-icon" id="digitalocean" src="../assets/images/tools/digitalocean.svg" alt="">
-      </div>
-      
-      <div data-tooltip="Amazon Web Services">
-        <img class="tool-icon" id="aws" src="../assets/images/tools/aws.png" alt="">
-      </div>
-      
-      <div data-tooltip="Figma - Collaborative Interface Design">
-        <img class="tool-icon" id="figma" src="../assets/images/tools/figma.svg" alt="">
-      </div>
-
-      <div data-tooltip="Lucidchart - Visual Software Design">
-        <img class="tool-icon" id="lucidchart" src="../assets/images/tools/lucidchart.png" alt="">
-      </div>
-
-      <div data-tooltip="React Javascript Framework">
-        <img class="tool-icon" id="react" src="../assets/images/tools/react.svg" alt="">
-      </div>
-
-      <div data-tooltip="Vue Javascript Framework">
-        <img class="tool-icon" id="vue" src="../assets/images/tools/vue.png" alt="">
-      </div>
-
-      <!-- break -->
-      <div class="break"></div> 
-
-      <div data-tooltip="MongoDB NoSQL Database" data-position="bottom center">
-        <img class="tool-icon" id="mongo" src="../assets/images/tools/mongo.png" alt="">
-      </div>
-
-      <div data-tooltip="MySQL Relational Database" data-position="bottom center">
-        <img class="tool-icon" id="mysql" src="../assets/images/tools/mysql.png" alt="">
-      </div>
-
-      <div data-tooltip="NodeJS Back-End Runtime Environment" data-position="bottom center">
-        <img class="tool-icon" id="nodejs" src="../assets/images/tools/nodejs.png" alt="">
-      </div>
-
-      <div data-tooltip="SASS - CSS Preprocessor" data-position="bottom center">
-        <img class="tool-icon" id="sass" src="../assets/images/tools/sass.png" alt="">
-      </div>
-
-      <div data-tooltip="Semantic UI Front-End Framework" data-position="bottom center">
-        <img class="tool-icon" id="semantic" src="../assets/images/tools/semantic.png" alt="">
-      </div>
-
-      <div data-tooltip="Visual Studio Code Editor" data-position="bottom center">
-        <img class="tool-icon" id="vscode" src="../assets/images/tools/vscode.png" alt="">
-      </div>
-
-      <div data-tooltip="IntelliJ - Integrated Development Environment for Java" data-position="bottom center">
-        <img class="tool-icon" id="intellij" src="../assets/images/tools/intellij.png" alt="">
-      </div>
-
+    <!-- All the tool icons. -->
+    <div id="tools-container">
+      <div v-for="tool in tools" :key="tool.id" :data-tooltip="tool.tooltip" @click.prevent="handleToolClick(tool.link)">
+        <img class="tool-icon" :src="tool.icon">
+      </div>      
     </div>
   </div>
 </template>
 
-/* Script */
 <script>
+  import tools from '/tools.json'
+
   export default {
     name: 'Tools',
     data() {
       return {
-        
+        tools: tools
       }
     },
     methods: {
-      handleToolClick() {
-        const target = event.target
-
-        if (target.classList.contains('tool-icon')) {
-          let redirectTo = ''
-          
-          switch (target.id) {
-            case 'github':
-              redirectTo = 'https://github.com/'
-              break;
-            case 'gitlab':
-              redirectTo = 'https://about.gitlab.com/'
-              break;
-            case 'digitalocean':
-              redirectTo = 'https://www.digitalocean.com/'
-              break;
-            case 'aws':
-              redirectTo = 'https://aws.amazon.com/'
-              break;
-            case 'figma':
-              redirectTo = 'https://www.figma.com/'
-              break;
-            case 'lucidchart':
-              redirectTo = 'https://www.lucidchart.com/'
-              break;
-            case 'vue':
-              redirectTo = 'https://vuejs.org/'
-              break;
-            case 'mongo':
-              redirectTo = 'https://www.mongodb.com/'
-              break;
-            case 'mysql':
-              redirectTo = 'https://www.mysql.com/'
-              break;
-            case 'nodejs':
-              redirectTo = 'https://nodejs.org/'
-              break;
-            case 'sass':
-              redirectTo = 'https://sass-lang.com/'
-              break;
-            case 'semantic':
-              redirectTo = 'https://semantic-ui.com/'
-              break;
-            case 'vscode':
-              redirectTo = 'https://code.visualstudio.com/'
-              break;
-            case 'intellij':
-              redirectTo = 'https://www.jetbrains.com/idea/'
-              break;
-            case 'react':
-              redirectTo = 'https://reactjs.org/'
-              break;    
-
-          }
-
-          window.open(redirectTo, '_blank')
-        }
+      handleToolClick(link) {
+        window.open(link, '_blank')
       }
     }
   }
 </script>
 
-/* Style */
 <style scoped>
   #tools {
     margin-top: 50px;
@@ -166,13 +52,17 @@
 
     @media only screen and (max-width: 600px) {
       .tool-icon {
-        max-height: 40px;
-        max-width: 40px;
+        max-height: 50px;
+        max-width: 50px;
         margin: 20px;
       }
 
       .break {
         display: none;
+      }
+
+      #tools-container {
+        padding: 0;
       }
     }
 </style>

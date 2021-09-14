@@ -1,0 +1,99 @@
+[
+  {
+    "id": "github",
+    "link": "https://github.com/",
+    "tooltip": "Github Version Control & Project Management",
+    "icon": "images/tools/github.png"
+  },
+  {
+    "id": "gitlab",
+    "link": "https://about.gitlab.com/",
+    "tooltip": "Gitlab Version Control & Project Management",
+    "icon": "images/tools/gitlab.png"
+  },
+  {
+    "id": "digitalocean",
+    "link": "https://www.digitalocean.com/",
+    "tooltip": "Digital Ocean Cloud Services",
+    "icon": "images/tools/digitalocean.svg"
+  },
+  {
+    "id": "aws",
+    "link": "https://aws.amazon.com/",
+
+    "tooltip": "Amazon Web Services",
+    "icon": "images/tools/aws.png"
+  },
+  {
+    "id": "figma",
+    "link": "https://www.figma.com/",
+    "tooltip": "Figma - Collaborative Interface Design",
+    "icon": "images/tools/figma.svg"
+  },
+  {
+    "id": "lucidchart",
+    "link": "https://www.lucidchart.com/",
+    "tooltip": "Lucidchart - Visual Software Design",
+    "icon": "images/tools/lucidchart.png"
+  },
+  {
+    "id": "react",
+    "link": "https://reactjs.org/",
+    "tooltip": "React Javascript Framework",
+    "icon": "images/tools/react.svg"
+  },
+  {
+    "id": "vue",
+    "link": "https://vuejs.org/",
+    "tooltip": "Vue Javascript Framework",
+    "icon": "images/tools/vue.png"
+  },
+  {
+    "id": "mongo",
+    "link": "https://www.mongodb.com/",
+    "tooltip": "MongoDB NoSQL Database",
+    "icon": "images/tools/mongo.png"
+  },
+  {
+    "id": "mysql",
+    "link": "https://www.mysql.com/",
+    "tooltip": "MySQL Relational Database",
+    "icon": "images/tools/mysql.png"
+  },
+  {
+    "id": "nodejs",
+    "link": "https://nodejs.org/",
+    "tooltip": "NodeJS Back-End Runtime Environment",
+    "icon": "images/tools/nodejs.png"
+  },
+  {
+    "id": "sass",
+    "link": "https://sass-lang.com/",
+    "tooltip": "SASS - CSS Preprocessor",
+    "icon": "images/tools/sass.png"
+  },
+  {
+    "id": "semantic",
+    "link": "https://semantic-ui.com/",
+    "tooltip": "Semantic UI Front-End Framework",
+    "icon": "images/tools/semantic.png"
+  },
+  {
+    "id": "vscode",
+    "link": "https://code.visualstudio.com/",
+    "tooltip": "Visual Studio Code Editor",
+    "icon": "images/tools/vscode.png"
+  },
+  {
+    "id": "intellij",
+    "link": "https://www.jetbrains.com/idea/",
+    "tooltip": "IntelliJ - Integrated Development Environment for Java",
+    "icon": "images/tools/intellij.png"
+  },
+  {
+    "id": "java",
+    "link": "https://www.java.com/en/",
+    "tooltip": "Java - Object Oriented Programming Language",
+    "icon": "images/tools/java.png"
+  }
+]
