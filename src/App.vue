@@ -1,17 +1,17 @@
 <template>
   <div id="app" v-on:load="onLoaded" v-show="loaded">
-      <Menu />
-      <Splash />
-      <About />
-      <Skills />
-      <Tools />
-      <Projects />
-      <div class="ui container">
-        <div class="ui horizontal divider">Education</div>
-      </div>
-      <Education />
-      <Contact />
-      <Footer />
+    <Menu />
+    <Splash />
+    <About />
+    <Skills />
+    <Tools />
+    <Projects />
+    <div class="ui container">
+      <div class="ui horizontal divider">Education</div>
+    </div>
+    <Education />
+    <Contact />
+    <Footer />
   </div>
 </template>
 
@@ -47,8 +47,8 @@ export default {
   methods: {
     onLoaded() {
       this.loaded = true
-    }
-  }
+    },
+  },
 }
 </script>
 
@@ -56,7 +56,7 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 * {
-  font-family: 'Karla', sans-serif;  
+  font-family: 'Karla', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -64,19 +64,19 @@ export default {
 }
 
 p {
-    font-size: 16px;
-    letter-spacing: 1.5px;
-    line-height: 2;
-    white-space: break-spaces;
-    text-align: center;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  line-height: 2;
+  white-space: break-spaces;
+  text-align: center;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 .fade-enter-active {
-transition: opacity 3s ease-in-out;;
+  transition: opacity 3s ease-in-out;
 }
 
 .fade-enter-to {

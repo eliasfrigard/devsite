@@ -17,41 +17,64 @@
         Contact
       </a>
     </div>
-  </div>
 
+    <div class="so-me">
+      <i class="fab fa-stack-overflow"></i>
+      <i class="fab fa-github"></i>
+      <i class="fab fa-linkedin"></i>
+      <i class="fa-brands fa-google-plus-g"></i>
+    </div>
+  </div>
 </template>
 
 <script>
-
-  export default {
-    name: 'Menu',
-    data() {
-      return {
-
-      }
-    },
-  }
+export default {
+  name: 'Menu',
+  data() {
+    return {}
+  },
+}
 </script>
 
-<style scoped>  
-  #navbar {
-    display: flex;
-    justify-content: center;
-    height: 50px;
-    max-width: 600px;
-    
-  }
+<style scoped>
+#navbar {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  max-width: 600px;
+  z-index: 10;
+}
 
-  #nav-container {
-    padding: 20px;
-    position:absolute;
-    width:100vw;
-    display: flex;
-    justify-content: center;
-    background-color: rgba(255, 255, 255, 0.966);
-  }
+#nav-container {
+  padding: 20px;
+  position: fixed;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.966);
+}
 
-  a {
-    font-size: 18px;
-  }
+.menu {
+  margin: 0;
+  padding: 0;
+}
+
+.so-me {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.so-me i {
+  font-size: 30px;
+  margin: 0 10px;
+}
+
+a {
+  font-size: 18px;
+}
 </style>
